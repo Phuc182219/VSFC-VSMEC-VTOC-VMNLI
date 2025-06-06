@@ -17,20 +17,43 @@ This repository contains scripts and datasets for training Vietnamese text class
 
 ```
 VSFC/
+│   ├── preprocess_VSFC.py
+│   ├── train_VSFC.py
+│   └── demo_VSFC.py
 VSMEC/
+│   ├── preprocess_VSMEC.py
+│   ├── train_VSMEC.py
+│   └── demo_VSMEC.py
 VTOC/
+│   ├── preprocess_VTOC.py
+│   ├── train_VTOC.py
+│   └── demo_VTOC.py
 VMNLI/
+│   ├── preprocess_VMNLI.py
+│   ├── train_VMNLI.py
+│   └── demo_VMNLI.py
 VieGLUE/
-├── data/
-│   ├── vsfc/
-│   ├── vsmec/
-│   ├── vtoc/
-│   └── mnli/
-├── extract_vigluedata.py
-├── check_ready_tasks.py
-.gitignore
+└── data/
+    ├── ax/
+    ├── cola/
+    ├── mnli/        ← VMNLI data
+    ├── mrpc/
+    ├── qnli/
+    ├── qqp/
+    ├── rte/
+    ├── sst2/
+    ├── stsb/
+    ├── vnrte/
+    ├── vsfc/
+    ├── vsmec/
+    ├── vtoc/
+    └── wnli/
+extract_vigluedata.py
+check_ready_tasks.py
 .gitattributes
+.gitignore
 README.md
+
 ```
 
 ---

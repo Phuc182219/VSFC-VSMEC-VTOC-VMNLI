@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.ipynb_checkpoints/
+*.egg-info/
+
+# Dataset cache
+*.arrow
+*.cache
+*.tmp
+*.log
+*.tsv
+*.csv
+
+# Model checkpoints (optional)
+checkpoint-*/
+*.bin
+*.ckpt
+
+# Local virtual env
+.venv/
+env/
+venv/
+
+# IDEs
+.vscode/
+.idea/
+
+# Ignore datasets unless needed
+VieGLUE/data/*/train.json
+VieGLUE/data/*/validation.json
+VieGLUE/data/*/test.json
+
+# OS generated
+.DS_Store
+Thumbs.db
